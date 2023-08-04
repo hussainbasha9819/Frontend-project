@@ -2,24 +2,24 @@
 const Main1=()=>{
 return(
   <>
-  <div className="w-full phone:w-full phone:h-[65vh] phone:flex phone:flex-col phone:bg-indigo-950  h-[100vh] flex flex-col bg-indigo-950 ">
+  <div className="w-full phone:w-full phone:h-[55vh] phone:flex phone:flex-col phone:bg-indigo-950  h-[100vh] flex flex-col bg-indigo-950 ">
     <div className="w-full phone:w-full phone:h-[50vh] h-[80vh] phone:flex  phone:items-center phone:justify-center flex items-center justify-center  ">
-      <div className="w-1/2 phone:w-1/2 phone:h-[40vh] phone:flex  h-[70vh] flex flex-col phone:pl-2 phone:gap-[1px] phone:pt-2  gap-3 pt-6 pl-10 ">
+      <div className="w-1/2 phone:w-[60%] phone:h-[40vh] phone:flex phone:flex-col   h-[70vh] flex flex-col phone:pl-4  phone:pt-2  pt-6 pl-10 ">
         <h1 className="text-4xl phone:text-[11px] text-white font-bold">Full Stack Developer Pro</h1>
-        <span className="text-[9px] text-white phone:flex  "><i class="fa-regular fa-circle-check text-green-500 phone:text-[10px]  text-xl pr-2 "></i><p className="phone:text-[9px] phone:mt-2 ">Get Job-Ready By Learning Through Robust Real-World Hands-on</p></span>
-        <span className="text-2xl text-white phone:text-[11px] font-bold">Learn</span>
+        <span className="text-[9px] phone:w-full phone:h-[5vh] flex text-white phone:flex  "><i class="fa-regular fa-circle-check text-green-500 phone:text-[10px]  text-xl pr-2 "></i><p className="phone:text-[9px] phone:mt-2 mt-2 ">Get Job-Ready By Learning Through Robust Real-World Hands-on</p></span>
+        <span className="text-2xl phone:w-full phone:h-[3vh] text-white phone:text-[11px] font-bold">Learn</span>
         <h2 className="text-2xl text-teal-300 phone:text-[11px] font-bold">Frontend</h2>
-        <span className=" w-10/12 text-3xl phone:text-[11px] text-white font-bold">And Also Get 10 Assured Interview Opportunities</span>
+        <span className=" w-10/12 phone:w-10/12 phone:h-[5vh] text-3xl phone:text-[7px] text-white font-bold">And Also Get 10 Assured Interview Opportunities</span>
         <span className="w-10/12 h-[10vh] phone:w-10/12 phone:h-[10vh] phone:flex mt-4 flex gap-3 ">
           <button className="w-[40%] phone:w-[40%] phone:h-[5vh] phone:text-[12px] h-[8vh] flex border-2 border-slate-500 rounded-xl bg-transparent items-center justify-center text-white font-"><a href="https://imarticus.org/full-stack-developer-pro/?utm_source=google&utm_medium=cpc&utm_campaign=18971377678&utm_campaignname=FSD-Campaign-Bangalore-MOTF&utm_term=web%20designing%20front%20end&utm_adgroup=Front-Backend-Development&utm_campaigntype=search&gclid=EAIaIQobChMI8s229Jy9gAMVvx2DAx2EXgY5EAAYASAAEgKiJPD_BwE">Download</a></button>
           <button className="w-[40%] phone:w-[40%] phone:h-[5vh] phone:text-[10px] h-[8vh] flex  rounded-xl bg-green-600 items-center justify-center text-white font-bold "><a href="https://imarticus.org/full-stack-developer-pro/?utm_source=google&utm_medium=cpc&utm_campaign=18971377678&utm_campaignname=FSD-Campaign-Bangalore-MOTF&utm_term=web%20designing%20front%20end&utm_adgroup=Front-Backend-Development&utm_campaigntype=search&gclid=EAIaIQobChMI8s229Jy9gAMVvx2DAx2EXgY5EAAYASAAEgKiJPD_BwE">Apply Now</a></button>
         </span>
       </div>
-      <div className="w-1/2 h-[70vh] phone:flex phone:w-1/2 phone:h-[40vh] flex items-center  justify-start  ">
-        <img className="w-[65%] h-[30vh] flex " src="https://cdn.pegasus.imarticus.org/Fsd/fsdNewImages/FSDproweb.webp" alt="" />
+      <div className="w-1/2 h-[70vh] phone:flex phone:w-[40%] phone:h-[40vh]  phone:items-center phone:justify-center flex items-center  justify-start  ">
+        <img className="w-[65%] h-[35vh] phone:w-[80%] phone:h-[30vh] phone:flex flex " src="https://cdn.pegasus.imarticus.org/Fsd/fsdNewImages/FSDproweb.webp" alt="" />
       </div>
     </div>
-    <div className="w-full h-[20vh] flex phone:flex phone:w-full phone:h-[15vh] phone:items-center phone:justify-evenly  items-start justify-evenly ">
+    <div className="w-full h-[20vh] flex phone:flex phone:w-full phone:h-[5vh] phone:items-center phone:justify-evenly  items-start justify-evenly ">
       <span className="flex phone:flex phone:gap-[3px] gap-1 "><p className="text-3xl phone:text-[12px] text-white  font-bold ">6</p> <h1 className="text-white phone:text-[10px] text-2xl mt-1 ">Months</h1></span>
       <span className="flex phone:flex phone:gap-[3px] gap-1 "><p className="text-3xl phone:text-[12px] text-white  font-bold ">450</p> <h1 className="text-white phone:text-[10px] text-2xl mt-1 ">Learning Hours</h1></span>
       <span className="flex phone:flex phone:gap-[3px] gap-1 "><p className="text-3xl phone:text-[12px] text-white  font-bold ">3-6 LPA</p> <h1 className="text-white phone:text-[10px] text-xl mt-1 ">Assured Minimum Salary</h1></span>
@@ -109,7 +109,7 @@ return(
 
       </div>
       <div className="w-full h-[20vh] phone:flex phone:w-full phone:h-[10vh] phone:items-center phone:justify-center flex items-center justify-center ">
-  <button className="w-1/4 phone:w-[20%] phone:h-[6vh] phone:flex phone:items-center phone:justify-center phone:text-[10px] h-14 bg-green-700 rounded-xl font-bold text-white text-"><a href="https://imarticus.org/full-stack-developer-pro/?utm_source=google&utm_medium=cpc&utm_campaign=18971377678&utm_campaignname=FSD-Campaign-Bangalore-MOTF&utm_term=web%20designing%20front%20end&utm_adgroup=Front-Backend-Development&utm_campaigntype=search&gclid=EAIaIQobChMI8s229Jy9gAMVvx2DAx2EXgY5EAAYASAAEgKiJPD_BwE">Enrol Now</a></button>
+  <button className="w-1/4 phone:w-[20%] phone:h-[6vh] phone:bg-white phone:flex phone:items-center phone:justify-center phone:text-[10px] h-14 bg-green-700 rounded-xl font-bold text-white text-"><a href="https://imarticus.org/full-stack-developer-pro/?utm_source=google&utm_medium=cpc&utm_campaign=18971377678&utm_campaignname=FSD-Campaign-Bangalore-MOTF&utm_term=web%20designing%20front%20end&utm_adgroup=Front-Backend-Development&utm_campaigntype=search&gclid=EAIaIQobChMI8s229Jy9gAMVvx2DAx2EXgY5EAAYASAAEgKiJPD_BwE">Enrol Now</a></button>
       </div>
     </div>
   </div>
@@ -180,9 +180,9 @@ return(
       <h1 className="text-4xl phone:text-base text-slate-500 font-bold ">Learn From The Best</h1>
     </div>
     <div className="w-full phone:w-full phone:h-[25vh] phone:flex phone:items-center phone:justify-center phone:gap-2 h-[30vh]  flex items-center justify-center gap-3 ">
-      <img className="w-[120px] phone:w-[70px] phone:h-[70px] phone:rounded-full h-[120px] flex rounded-full " src="https://cdn.pegasus.imarticus.org/Fsd/abhi.webp" alt="" /> <span className="w-[120px] h-[120px] phone:w-[70px] phone:h-[70px] phone:rounded-full phone:absolute absolute phone:left-[13.1%] left-[32.8%] opacity-50 bg-gray-700 flex rounded-full "></span>
+      <img className="w-[120px] phone:w-[70px] phone:h-[70px] phone:rounded-full h-[120px] flex rounded-full " src="https://cdn.pegasus.imarticus.org/Fsd/abhi.webp" alt="" /> <span className="w-[120px] h-[120px] phone:hidden phone:w-[70px] phone:h-[70px] phone:rounded-full phone:absolute absolute phone:left-[13.1%] left-[32.8%] opacity-50 bg-gray-700 flex rounded-full "></span>
       <img className="w-[170px] phone:w-[120px] phone:h-[120px] phone:rounded-full h-[170px] flex rounded-full  " src="https://cdn.pegasus.imarticus.org/Fsd/Naveen.webp" alt="" />
-      <img className="w-[120px] phone:w-[70px] phone:h-[70px] phone:rounded-full h-[120px] flex rounded-full " src="https://cdn.pegasus.imarticus.org/Fsd/shalini.webp" alt="" /><span className="w-[120px] phone:w-[70px] phone:h-[70px] phone:rounded-full phone:absolute phone:left-[68.5%] h-[120px] absolute left-[57.8%] opacity-50 bg-gray-700 flex rounded-full "></span>
+      <img className="w-[120px] phone:w-[70px] phone:h-[70px] phone:rounded-full h-[120px] flex rounded-full " src="https://cdn.pegasus.imarticus.org/Fsd/shalini.webp" alt="" /><span className="w-[120px] phone:hidden phone:w-[70px] phone:h-[70px] phone:rounded-full phone:absolute phone:left-[68.5%] h-[120px] absolute left-[57.8%] opacity-50 bg-gray-700 flex rounded-full "></span>
     </div>
     <div className="w-full h-[20vh] phone:w-full phone:h-[10vh] phone:flex phone:flex-col phone:items-center phone:justify-center flex flex-col items-center justify-center ">
       <h1 className="text-3xl phone:text-sm text-slate-500 font-bold ">Hussain Basha</h1>
@@ -250,12 +250,12 @@ return(
 <h1 className="text-3xl phone:text-base font-semibold  text-white ">Program Fee</h1>\
 <h1 className="text-5xl phone:text-sm font-semibold text-white ">₹ 1,19,000</h1>
 <h1 className="text-2xl phone:text-[12px] font-semibold text-white ">(Inclusive Of All Taxes)</h1>
-<button className="w-[30%] phone:w-[40%] phone:h-[7vh] phone:flex phone:items-center phone:justify-center phone:text-[10px] h-[10vh] flex mt-9 cursor-pointer bg-white rounded-lg items-center justify"><a href="https://imarticus.org/full-stack-developer-pro/?utm_source=google&utm_medium=cpc&utm_campaign=18971377678&utm_campaignname=FSD-Campaign-Bangalore-MOTF&utm_term=web%20designing%20front%20end&utm_adgroup=Front-Backend-Development&utm_campaigntype=search&gclid=EAIaIQobChMI8s229Jy9gAMVvx2DAx2EXgY5EAAYASAAEgKiJPD_BwE">Enquire Now</a></button>
+<button className="w-[30%] phone:w-[40%] phone:h-[5vh] phone:flex phone:items-center phone:justify-center phone:text-[8px] h-[10vh] flex mt-9 cursor-pointer bg-white rounded-lg items-center justify"><a href="https://imarticus.org/full-stack-developer-pro/?utm_source=google&utm_medium=cpc&utm_campaign=18971377678&utm_campaignname=FSD-Campaign-Bangalore-MOTF&utm_term=web%20designing%20front%20end&utm_adgroup=Front-Backend-Development&utm_campaigntype=search&gclid=EAIaIQobChMI8s229Jy9gAMVvx2DAx2EXgY5EAAYASAAEgKiJPD_BwE">Enquire Now</a></button>
   </div>
   <div className="w-1/3 phone:w-1/3 phone:h-[50vh] phone:flex phone:flex-col phone:items-center phone:justify-center phone:shadow-lg h-[80vh] rounded-r-2xl flex flex-col items-center justify-center shadow-lg">
     <span className="w-full phone:w-full phone:h-[10vh] phone:flex phone:items-center phone:justify-center phone:gap-1 h-[15vh] gap-3 flex items-center justify-center ">
-      <button className="w-[35%] phone:w-[40%] phone:h-[6vh] phone:flex phone:items-center phone:justify-center phone:text-[8px]  h-[10vh] bg-green-400 rounded-xl flex items-center justify-center text-white font-medium ">Instalments</button>
-      <button className="w-[35%] phone:w-[40%] phone:h-[6vh] phone:flex phone:items-center phone:justify-center phone:text-[8px] h-[10vh] bg-slate-400 rounded-xl flex items-center justify-center ">EMI Options</button>
+      <button className="w-[35%] phone:w-[40%] phone:h-[5vh] phone:flex phone:items-center phone:justify-center phone:text-[8px]  h-[10vh] bg-green-400 rounded-xl flex items-center justify-center text-white font-medium ">Instalments</button>
+      <button className="w-[35%] phone:w-[40%] phone:h-[5vh] phone:flex phone:items-center phone:justify-center phone:text-[8px] h-[10vh] bg-slate-400 rounded-xl flex items-center justify-center ">EMI Options</button>
     </span>
     <span className="w-[80%] phone:w-[80%] phone:rounded-lg phone:h-[24vh] phone:flex phone:flex-col h-[40vh] flex flex-col  border-2 border-slate-600 ">
     <span className="w-full phone:w-full phone:h-[6vh] phone:flex h-[10vh] flex    ">
@@ -291,7 +291,7 @@ return(
       </span>
     </span>
     </span>
-    <button className="w-[35%] phone:w-[40%] phone:h-[6vh] phone:flex phone:items-center phone:justify-center phone:text-[8px] h-[10vh] flex items-center justify-center bg-cyan-400 rounded-xl mt-4 font-bold text-white text-"><a href="https://pegasus.imarticus.org/payments/pay/?crs_pg_id=6321b5a3b4e6772ca772e23f&c">Play Now</a></button>
+    <button className="w-[35%] phone:w-[40%] phone:h-[5vh] phone:flex phone:items-center phone:justify-center phone:text-[8px] h-[10vh] flex items-center justify-center bg-cyan-400 rounded-xl mt-4 font-bold text-white text-"><a href="https://pegasus.imarticus.org/payments/pay/?crs_pg_id=6321b5a3b4e6772ca772e23f&c">Play Now</a></button>
   </div>
 </div>
   
